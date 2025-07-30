@@ -14,7 +14,8 @@ const Landing = () => {
     { word: "flatmate", gradient: "from-primary via-beige-accent to-primary" },
     { word: "home", gradient: "from-beige-accent via-primary to-beige-accent" }
   ];
-
+//added :- niharika
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentText((prev) => (prev + 1) % scrollingTexts.length);
