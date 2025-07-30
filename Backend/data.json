@@ -1,0 +1,2047 @@
+[
+  {
+    "name": "Geneva Bogisich",
+    "age": 24,
+    "avatar": "https://images.unsplash.com/photo-1753416536123-23597cd1ce30?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "isVerified": true,
+    "lastActive": "23 minutes ago",
+    "userType": "owner",
+    "intent": "looking-for-flat",
+    "gender": "male",
+    "college": "D'Amore, Doyle and Kling",
+    "course": "B.Tech in Outdoors",
+    "year": "Graduated",
+    "company": "Christiansen - Ledner",
+    "jobTitle": "International Security Architect",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹22000 - ₹41000",
+    "roomType": "Shared Room",
+    "moveInDate": "November 2025",
+    "stayDuration": "1 year or more",
+    "phone": "1-921-338-0668 x61248",
+    "email": "domenica51@yahoo.com",
+    "description": "Armarium cum spiculum vinculum curso ventosus vespillo. Animadverto deorsum curso aeneus.",
+    "habits": [
+      "Organized",
+      "Early Riser",
+      "Calm"
+    ],
+    "amenities": [
+      "TV",
+      "Gym",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No pets"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": true,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/23790180",
+    "tags": [
+      "Professional",
+      "Social",
+      "Student",
+      "Friendly"
+    ],
+    "compatibility": 71
+  },
+  {
+    "name": "Clifford Hauck",
+    "age": 30,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/9.jpg",
+    "isVerified": true,
+    "lastActive": "103 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "female",
+    "college": "Witting, Padberg and O'Connell",
+    "course": "B.Tech in Sports",
+    "year": "Graduated",
+    "company": "Crist - Roob",
+    "jobTitle": "Corporate Division Technician",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹18000 - ₹46000",
+    "roomType": "Shared Room",
+    "moveInDate": "August 2025",
+    "stayDuration": "1 year or more",
+    "phone": "445.906.0474",
+    "email": "kevin86@hotmail.com",
+    "description": "Culpa veritas toties sufficio clam delicate libero. Vitiosus defaeco eaque clamo blanditiis cohors vado.",
+    "habits": [
+      "Night Owl",
+      "Clean"
+    ],
+    "amenities": [
+      "TV",
+      "AC",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No pets"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/95834342",
+    "tags": [
+      "Professional",
+      "Social"
+    ],
+    "compatibility": 79
+  },
+  {
+    "name": "Wm Crist",
+    "age": 27,
+    "avatar": "https://avatars.githubusercontent.com/u/74623912",
+    "isVerified": false,
+    "lastActive": "54 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "female",
+    "college": "Brown Group",
+    "course": "B.Tech in Music",
+    "year": "Graduated",
+    "company": "Ratke and Sons",
+    "jobTitle": "Regional Security Assistant",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹23000 - ₹42000",
+    "roomType": "Shared Room",
+    "moveInDate": "October 2025",
+    "stayDuration": "1 year or more",
+    "phone": "(552) 928-2697 x6967",
+    "email": "bernadette39@yahoo.com",
+    "description": "Curatio deripio degero creptio turba volva terminatio vomito demulceo. Cinis coruscus brevis totus vinum acerbitas labore brevis blandior.",
+    "habits": [
+      "Night Owl",
+      "Social"
+    ],
+    "amenities": [
+      "Washing Machine",
+      "Gym",
+      "TV"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": true,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/48.jpg",
+    "tags": [
+      "Techie",
+      "Friendly",
+      "Hyderabad",
+      "Professional"
+    ],
+    "compatibility": 91
+  },
+  {
+    "name": "Helen Wilderman",
+    "age": 35,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/94.jpg",
+    "isVerified": false,
+    "lastActive": "106 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flat",
+    "gender": "any",
+    "college": "Goldner and Sons",
+    "course": "B.Tech in Clothing",
+    "year": "Graduated",
+    "company": "Dach, Rogahn and Roberts",
+    "jobTitle": "Global Marketing Facilitator",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹23000 - ₹41000",
+    "roomType": "Shared Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "6 months",
+    "phone": "219.205.2576 x5367",
+    "email": "barbara58@hotmail.com",
+    "description": "Arca ambulo colo esse. Alioqui coniuratio deporto ultio vergo arto.",
+    "habits": [
+      "Clean",
+      "Social"
+    ],
+    "amenities": [
+      "Gym",
+      "Parking"
+    ],
+    "restrictions": [
+      "No pets",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": false,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/94.jpg",
+    "tags": [
+      "Techie",
+      "Professional"
+    ],
+    "compatibility": 97
+  },
+  {
+    "name": "Benny Johnson",
+    "age": 27,
+    "avatar": "https://avatars.githubusercontent.com/u/21611442",
+    "isVerified": false,
+    "lastActive": "26 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "female",
+    "college": "Kihn - Conn",
+    "course": "B.Tech in Games",
+    "year": "Graduated",
+    "company": "Watsica LLC",
+    "jobTitle": "Human Solutions Representative",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹26000 - ₹44000",
+    "roomType": "Shared Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "6 months",
+    "phone": "724.408.0907 x290",
+    "email": "sonny99@hotmail.com",
+    "description": "Adipiscor conor exercitationem fuga. Varius aurum depromo.",
+    "habits": [
+      "Night Owl",
+      "Clean",
+      "Early Riser",
+      "Social"
+    ],
+    "amenities": [
+      "TV",
+      "Washing Machine"
+    ],
+    "restrictions": [
+      "No pets",
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": true,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/82.jpg",
+    "tags": [
+      "Friendly",
+      "Hyderabad"
+    ],
+    "compatibility": 72
+  },
+  {
+    "name": "Andres Gerlach",
+    "age": 27,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/61.jpg",
+    "isVerified": false,
+    "lastActive": "107 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Botsford LLC",
+    "course": "B.Tech in Kids",
+    "year": "Graduated",
+    "company": "Hackett, Torphy and Hilll",
+    "jobTitle": "Customer Optimization Specialist",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹32000 - ₹40000",
+    "roomType": "Single Room",
+    "moveInDate": "July 2026",
+    "stayDuration": "1 year or more",
+    "phone": "(517) 339-5726 x2437",
+    "email": "fatima_halvorson@yahoo.com",
+    "description": "Argentum coniuratio curo laudantium talus absum aequus coadunatio officiis patria. Despecto custodia adsidue vilis uterque cresco.",
+    "habits": [
+      "Night Owl",
+      "Calm",
+      "Clean"
+    ],
+    "amenities": [
+      "AC",
+      "Gym",
+      "Parking",
+      "Washing Machine"
+    ],
+    "restrictions": [
+      "No loud music",
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/2908666",
+    "tags": [
+      "Social",
+      "Professional",
+      "Techie"
+    ],
+    "compatibility": 79
+  },
+  {
+    "name": "Fredrick Hauck",
+    "age": 28,
+    "avatar": "https://avatars.githubusercontent.com/u/28439935",
+    "isVerified": true,
+    "lastActive": "52 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flat",
+    "gender": "any",
+    "college": "Keeling, Ledner and Steuber",
+    "course": "B.Tech in Jewelry",
+    "year": "Graduated",
+    "company": "Hermiston - Thiel",
+    "jobTitle": "Dynamic Interactions Orchestrator",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹27000 - ₹46000",
+    "roomType": "Single Room",
+    "moveInDate": "April 2026",
+    "stayDuration": "1 year or more",
+    "phone": "(724) 424-8596 x04413",
+    "email": "jaime.green@gmail.com",
+    "description": "Uberrime alienus tamdiu tabella. Cruciamentum textor vomer totidem vinum volva demum.",
+    "habits": [
+      "Calm",
+      "Night Owl"
+    ],
+    "amenities": [
+      "AC",
+      "Gym",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": false,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/14462874",
+    "tags": [
+      "Student",
+      "Hyderabad"
+    ],
+    "compatibility": 82
+  },
+  {
+    "name": "Kelli Kling",
+    "age": 22,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/90.jpg",
+    "isVerified": false,
+    "lastActive": "48 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Hoeger Group",
+    "course": "B.Tech in Industrial",
+    "year": "Graduated",
+    "company": "Connelly, Gorczany and Botsford",
+    "jobTitle": "Future Data Executive",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹22000 - ₹50000",
+    "roomType": "Shared Room",
+    "moveInDate": "November 2025",
+    "stayDuration": "1 year or more",
+    "phone": "828.677.5047 x88999",
+    "email": "andy.hills29@yahoo.com",
+    "description": "Sono depono auxilium sursum. Colligo ademptio repudiandae.",
+    "habits": [
+      "Clean",
+      "Calm"
+    ],
+    "amenities": [
+      "Gym",
+      "WiFi",
+      "Washing Machine"
+    ],
+    "restrictions": [
+      "No pets"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg",
+    "tags": [
+      "Techie",
+      "Friendly"
+    ],
+    "compatibility": 79
+  },
+  {
+    "name": "Tracy Rogahn-Bins",
+    "age": 26,
+    "avatar": "https://avatars.githubusercontent.com/u/93449540",
+    "isVerified": true,
+    "lastActive": "42 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Ward - Torphy",
+    "course": "B.Tech in Shoes",
+    "year": "Graduated",
+    "company": "Schowalter, Baumbach and Wolf",
+    "jobTitle": "Chief Accountability Representative",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹15000 - ₹45000",
+    "roomType": "Single Room",
+    "moveInDate": "May 2026",
+    "stayDuration": "1 year or more",
+    "phone": "1-600-531-8820 x421",
+    "email": "vincenzo_beatty74@yahoo.com",
+    "description": "Uterque aro urbanus deleniti avaritia armarium thermae. Ustulo cunctatio delectatio placeat approbo civitas quae.",
+    "habits": [
+      "Early Riser",
+      "Night Owl",
+      "Social",
+      "Clean"
+    ],
+    "amenities": [
+      "Gym",
+      "Washing Machine"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": false,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/21.jpg",
+    "tags": [
+      "Hyderabad",
+      "Professional"
+    ],
+    "compatibility": 97
+  },
+  {
+    "name": "Joe Champlin",
+    "age": 32,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/66.jpg",
+    "isVerified": false,
+    "lastActive": "88 minutes ago",
+    "userType": "owner",
+    "intent": "looking-for-flatmate",
+    "gender": "any",
+    "college": "Robel LLC",
+    "course": "B.Tech in Garden",
+    "year": "Graduated",
+    "company": "Kerluke Inc",
+    "jobTitle": "Customer Implementation Producer",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹21000 - ₹41000",
+    "roomType": "Shared Room",
+    "moveInDate": "January 2026",
+    "stayDuration": "6 months",
+    "phone": "782-974-0882",
+    "email": "woodrow76@yahoo.com",
+    "description": "Vilis depopulo conforto adicio venia. Antiquus benevolentia vestigium degero baiulus.",
+    "habits": [
+      "Night Owl",
+      "Organized",
+      "Early Riser"
+    ],
+    "amenities": [
+      "WiFi",
+      "Washing Machine",
+      "Gym",
+      "Parking"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/7359928",
+    "tags": [
+      "Student",
+      "Calm"
+    ],
+    "compatibility": 83
+  },
+  {
+    "name": "Jackie Mayer",
+    "age": 25,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/73.jpg",
+    "isVerified": true,
+    "lastActive": "31 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flatmate",
+    "gender": "male",
+    "college": "Collins, Labadie and Kunde",
+    "course": "B.Tech in Health",
+    "year": "Graduated",
+    "company": "Koss Inc",
+    "jobTitle": "Senior Configuration Analyst",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹18000 - ₹44000",
+    "roomType": "Shared Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "1 year or more",
+    "phone": "1-513-504-7231 x8085",
+    "email": "dorcas24@hotmail.com",
+    "description": "Doloribus tredecim pecco defluo contego sperno decimus labore. Capio victoria id inflammatio tametsi crux cogo pecco.",
+    "habits": [
+      "Calm",
+      "Early Riser",
+      "Social",
+      "Organized"
+    ],
+    "amenities": [
+      "Parking",
+      "Washing Machine",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No pets"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/37.jpg",
+    "tags": [
+      "Student",
+      "Friendly"
+    ],
+    "compatibility": 64
+  },
+  {
+    "name": "Sara Schulist",
+    "age": 30,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/83.jpg",
+    "isVerified": true,
+    "lastActive": "79 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flatmate",
+    "gender": "female",
+    "college": "Gutkowski and Sons",
+    "course": "B.Tech in Music",
+    "year": "Graduated",
+    "company": "Kozey and Sons",
+    "jobTitle": "National Intranet Engineer",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹18000 - ₹43000",
+    "roomType": "Single Room",
+    "moveInDate": "November 2025",
+    "stayDuration": "1 year or more",
+    "phone": "1-275-563-2962",
+    "email": "martine_quitzon@hotmail.com",
+    "description": "Quo abbas currus decumbo agnitio antea audeo arca. Ullam statua demergo adeptio et.",
+    "habits": [
+      "Night Owl",
+      "Early Riser"
+    ],
+    "amenities": [
+      "WiFi",
+      "Parking",
+      "Washing Machine",
+      "AC"
+    ],
+    "restrictions": [
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/62467306",
+    "tags": [
+      "Social",
+      "Student"
+    ],
+    "compatibility": 65
+  },
+  {
+    "name": "Larry Heaney",
+    "age": 33,
+    "avatar": "https://avatars.githubusercontent.com/u/83488323",
+    "isVerified": false,
+    "lastActive": "115 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "any",
+    "college": "Pfeffer, Lemke and Spinka",
+    "course": "B.Tech in Sports",
+    "year": "Graduated",
+    "company": "Osinski - Pfannerstill",
+    "jobTitle": "Human Group Orchestrator",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹22000 - ₹45000",
+    "roomType": "Shared Room",
+    "moveInDate": "September 2025",
+    "stayDuration": "1 year or more",
+    "phone": "(409) 314-3046 x90154",
+    "email": "monserrat79@gmail.com",
+    "description": "Celer subnecto colo tabgo corroboro velit minus defluo. Cauda vito solitudo volaticus cuius aiunt architecto ceno.",
+    "habits": [
+      "Organized",
+      "Calm",
+      "Early Riser",
+      "Clean"
+    ],
+    "amenities": [
+      "TV",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/19.jpg",
+    "tags": [
+      "Hyderabad",
+      "Professional",
+      "Friendly"
+    ],
+    "compatibility": 73
+  },
+  {
+    "name": "Ronald Auer PhD",
+    "age": 28,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg",
+    "isVerified": false,
+    "lastActive": "79 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "male",
+    "college": "Bergnaum, Rath and Effertz",
+    "course": "B.Tech in Outdoors",
+    "year": "Graduated",
+    "company": "Balistreri Inc",
+    "jobTitle": "Investor Program Strategist",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹17000 - ₹44000",
+    "roomType": "Shared Room",
+    "moveInDate": "October 2025",
+    "stayDuration": "1 year or more",
+    "phone": "591.215.6423",
+    "email": "roxanne39@gmail.com",
+    "description": "Calco sperno ager unde corona votum sordeo aveho. Degenero vox vomer solum via ipsam vinculum alter.",
+    "habits": [
+      "Organized",
+      "Clean",
+      "Early Riser",
+      "Social"
+    ],
+    "amenities": [
+      "Parking",
+      "Gym"
+    ],
+    "restrictions": [
+      "No pets"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": false,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/12.jpg",
+    "tags": [
+      "Calm",
+      "Social",
+      "Hyderabad"
+    ],
+    "compatibility": 82
+  },
+  {
+    "name": "Patty Hegmann",
+    "age": 29,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/59.jpg",
+    "isVerified": false,
+    "lastActive": "95 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "male",
+    "college": "Bashirian - Huel",
+    "course": "B.Tech in Sports",
+    "year": "Graduated",
+    "company": "Koepp Inc",
+    "jobTitle": "Direct Accountability Director",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹20000 - ₹41000",
+    "roomType": "Shared Room",
+    "moveInDate": "March 2026",
+    "stayDuration": "6 months",
+    "phone": "(350) 533-8727 x71023",
+    "email": "cierra9@hotmail.com",
+    "description": "Turbo theca thesis astrum pariatur custodia solutio concido. Quos voluptatem alii.",
+    "habits": [
+      "Calm",
+      "Early Riser"
+    ],
+    "amenities": [
+      "Gym",
+      "Parking"
+    ],
+    "restrictions": [
+      "No loud music",
+      "No pets"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": false,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/8.jpg",
+    "tags": [
+      "Student",
+      "Calm"
+    ],
+    "compatibility": 93
+  },
+  {
+    "name": "Maria Schulist",
+    "age": 27,
+    "avatar": "https://avatars.githubusercontent.com/u/58176022",
+    "isVerified": true,
+    "lastActive": "103 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "any",
+    "college": "Turcotte LLC",
+    "course": "B.Tech in Baby",
+    "year": "Graduated",
+    "company": "Farrell - Schaden",
+    "jobTitle": "Dynamic Branding Facilitator",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹17000 - ₹47000",
+    "roomType": "Shared Room",
+    "moveInDate": "August 2025",
+    "stayDuration": "1 year or more",
+    "phone": "972.711.0743 x2145",
+    "email": "amalia2@yahoo.com",
+    "description": "Adficio cras trans sophismata ipsam coruscus absconditus inflammatio arbor accedo. Explicabo arguo territo laboriosam.",
+    "habits": [
+      "Night Owl",
+      "Early Riser",
+      "Organized"
+    ],
+    "amenities": [
+      "Parking",
+      "TV",
+      "Washing Machine",
+      "AC"
+    ],
+    "restrictions": [
+      "No pets"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": true,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/6.jpg",
+    "tags": [
+      "Social",
+      "Student",
+      "Calm",
+      "Professional"
+    ],
+    "compatibility": 74
+  },
+  {
+    "name": "Heidi Hackett",
+    "age": 31,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/13.jpg",
+    "isVerified": true,
+    "lastActive": "21 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flat",
+    "gender": "male",
+    "college": "Wiegand - Wehner",
+    "course": "B.Tech in Electronics",
+    "year": "Graduated",
+    "company": "Ernser - Pacocha",
+    "jobTitle": "Legacy Directives Consultant",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹23000 - ₹42000",
+    "roomType": "Single Room",
+    "moveInDate": "August 2025",
+    "stayDuration": "1 year or more",
+    "phone": "(307) 524-4351 x9899",
+    "email": "jovan.hansen37@hotmail.com",
+    "description": "Vae deporto quidem debitis quasi doloribus virgo capto. Decet vado reiciendis.",
+    "habits": [
+      "Early Riser",
+      "Social",
+      "Night Owl"
+    ],
+    "amenities": [
+      "TV",
+      "AC",
+      "Washing Machine"
+    ],
+    "restrictions": [
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": false,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/66576477",
+    "tags": [
+      "Techie",
+      "Friendly",
+      "Professional"
+    ],
+    "compatibility": 60
+  },
+  {
+    "name": "Rachael Weimann",
+    "age": 21,
+    "avatar": "https://avatars.githubusercontent.com/u/93047289",
+    "isVerified": false,
+    "lastActive": "93 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flat",
+    "gender": "female",
+    "college": "Bergnaum, Dickinson and Wolff",
+    "course": "B.Tech in Games",
+    "year": "Graduated",
+    "company": "Crist, Heathcote and Nitzsche",
+    "jobTitle": "Principal Paradigm Agent",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹19000 - ₹45000",
+    "roomType": "Single Room",
+    "moveInDate": "March 2026",
+    "stayDuration": "6 months",
+    "phone": "885.539.6276 x96695",
+    "email": "elaina_konopelski29@hotmail.com",
+    "description": "Praesentium depereo statim aspernatur. Apostolus sollicito iste.",
+    "habits": [
+      "Early Riser",
+      "Calm",
+      "Organized"
+    ],
+    "amenities": [
+      "TV",
+      "Washing Machine",
+      "AC",
+      "Gym"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": false,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/81.jpg",
+    "tags": [
+      "Social",
+      "Friendly",
+      "Hyderabad"
+    ],
+    "compatibility": 98
+  },
+  {
+    "name": "Evan Abshire-Hintz",
+    "age": 25,
+    "avatar": "https://avatars.githubusercontent.com/u/17242540",
+    "isVerified": true,
+    "lastActive": "77 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Prosacco Inc",
+    "course": "B.Tech in Shoes",
+    "year": "Graduated",
+    "company": "Hermiston and Sons",
+    "jobTitle": "Forward Data Supervisor",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹32000 - ₹40000",
+    "roomType": "Shared Room",
+    "moveInDate": "November 2025",
+    "stayDuration": "1 year or more",
+    "phone": "1-479-369-6547 x145",
+    "email": "ava28@hotmail.com",
+    "description": "Quidem conor asporto repellendus accusamus coma speculum. Summisse aperte modi nemo magnam ventus xiphias cernuus.",
+    "habits": [
+      "Clean",
+      "Night Owl",
+      "Early Riser",
+      "Calm"
+    ],
+    "amenities": [
+      "AC",
+      "Gym",
+      "Parking",
+      "TV"
+    ],
+    "restrictions": [
+      "No pets",
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/40419024",
+    "tags": [
+      "Hyderabad",
+      "Social",
+      "Friendly",
+      "Calm"
+    ],
+    "compatibility": 85
+  },
+  {
+    "name": "Mrs. Tabitha Conroy",
+    "age": 24,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/54.jpg",
+    "isVerified": true,
+    "lastActive": "72 minutes ago",
+    "userType": "professional",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Murray and Sons",
+    "course": "B.Tech in Home",
+    "year": "Graduated",
+    "company": "Labadie LLC",
+    "jobTitle": "Lead Operations Coordinator",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹18000 - ₹48000",
+    "roomType": "Single Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "6 months",
+    "phone": "589-655-7973 x36365",
+    "email": "dewayne.mcdermott9@hotmail.com",
+    "description": "Calamitas taedium repellat somniculosus. Acidus repellat adinventitias rem.",
+    "habits": [
+      "Calm",
+      "Social",
+      "Early Riser"
+    ],
+    "amenities": [
+      "WiFi",
+      "Parking"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": false,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/52958659",
+    "tags": [
+      "Professional",
+      "Friendly",
+      "Techie"
+    ],
+    "compatibility": 60
+  },
+  {
+    "name": "Dr. Essie Witting",
+    "age": 34,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/66.jpg",
+    "isVerified": true,
+    "lastActive": "60 minutes ago",
+    "userType": "owner",
+    "intent": "have-flat-need-flatmate",
+    "gender": "female",
+    "college": "Jerde - Kirlin",
+    "course": "B.Tech in Computers",
+    "year": "Graduated",
+    "company": "McClure - Jacobi",
+    "jobTitle": "Principal Division Specialist",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹33000 - ₹46000",
+    "roomType": "Single Room",
+    "moveInDate": "September 2025",
+    "stayDuration": "6 months",
+    "phone": "(766) 270-3052 x981",
+    "email": "coby.will98@hotmail.com",
+    "description": "Vallum soluta vorax cometes victoria sponte sub appositus necessitatibus victus. Ars atrocitas argumentum agnosco tibi.",
+    "habits": [
+      "Organized",
+      "Social",
+      "Clean"
+    ],
+    "amenities": [
+      "AC",
+      "Gym"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": true,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/56.jpg",
+    "tags": [
+      "Social",
+      "Calm",
+      "Student"
+    ],
+    "compatibility": 96
+  },
+  {
+    "name": "Mamie Baumbach MD",
+    "age": 22,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/11.jpg",
+    "isVerified": false,
+    "lastActive": "72 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flat",
+    "gender": "male",
+    "college": "Olson Group",
+    "course": "B.Tech in Clothing",
+    "year": "Graduated",
+    "company": "Streich, Runte and Nikolaus",
+    "jobTitle": "Global Group Planner",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹16000 - ₹43000",
+    "roomType": "Single Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "1 year or more",
+    "phone": "1-587-515-2525 x9932",
+    "email": "eldred22@hotmail.com",
+    "description": "Creta torqueo annus caelum vere demo arcus defessus. Vorax vulnus beneficium vulgivagus adeptio campana.",
+    "habits": [
+      "Clean",
+      "Night Owl",
+      "Social"
+    ],
+    "amenities": [
+      "Parking",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/56427228",
+    "tags": [
+      "Professional",
+      "Hyderabad",
+      "Techie"
+    ],
+    "compatibility": 96
+  },
+  {
+    "name": "Mamie Smith-Williamson",
+    "age": 25,
+    "avatar": "https://avatars.githubusercontent.com/u/49109872",
+    "isVerified": true,
+    "lastActive": "49 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "female",
+    "college": "McKenzie, McCullough and Lebsack",
+    "course": "B.Tech in Sports",
+    "year": "Graduated",
+    "company": "Schroeder, McGlynn and Considine",
+    "jobTitle": "Customer Identity Specialist",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹28000 - ₹48000",
+    "roomType": "Single Room",
+    "moveInDate": "March 2026",
+    "stayDuration": "1 year or more",
+    "phone": "(465) 879-6243 x491",
+    "email": "danyka.crooks62@gmail.com",
+    "description": "Aedificium dicta aqua studio. Deripio coaegresco aperio arbustum alias repellendus.",
+    "habits": [
+      "Calm",
+      "Early Riser",
+      "Night Owl",
+      "Social"
+    ],
+    "amenities": [
+      "TV",
+      "Gym"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": true,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/64.jpg",
+    "tags": [
+      "Techie",
+      "Student",
+      "Professional"
+    ],
+    "compatibility": 61
+  },
+  {
+    "name": "Casey Renner III",
+    "age": 21,
+    "avatar": "https://avatars.githubusercontent.com/u/96773703",
+    "isVerified": false,
+    "lastActive": "112 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Ernser - Stanton",
+    "course": "B.Tech in Toys",
+    "year": "Graduated",
+    "company": "Hammes Group",
+    "jobTitle": "Dynamic Interactions Representative",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹33000 - ₹41000",
+    "roomType": "Single Room",
+    "moveInDate": "January 2026",
+    "stayDuration": "1 year or more",
+    "phone": "903.858.7261",
+    "email": "amelia.bins51@yahoo.com",
+    "description": "Terra deripio pecto cunabula. Vilitas thema totam conforto facilis conduco delectatio advoco ratione esse.",
+    "habits": [
+      "Early Riser",
+      "Social"
+    ],
+    "amenities": [
+      "Parking",
+      "TV",
+      "Washing Machine",
+      "Gym"
+    ],
+    "restrictions": [
+      "No pets",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": true,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/33560315",
+    "tags": [
+      "Student",
+      "Calm"
+    ],
+    "compatibility": 56
+  },
+  {
+    "name": "Ms. Shari Ullrich",
+    "age": 31,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/25.jpg",
+    "isVerified": true,
+    "lastActive": "18 minutes ago",
+    "userType": "owner",
+    "intent": "looking-for-flatmate",
+    "gender": "any",
+    "college": "Legros Inc",
+    "course": "B.Tech in Automotive",
+    "year": "Graduated",
+    "company": "Renner Group",
+    "jobTitle": "Human Solutions Executive",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹22000 - ₹47000",
+    "roomType": "Shared Room",
+    "moveInDate": "April 2026",
+    "stayDuration": "1 year or more",
+    "phone": "(608) 578-1939 x887",
+    "email": "savannah47@hotmail.com",
+    "description": "Cito corrigo quisquam timor perspiciatis trans. Vulariter tenetur turpis conqueror contabesco textilis.",
+    "habits": [
+      "Early Riser",
+      "Organized",
+      "Clean",
+      "Calm"
+    ],
+    "amenities": [
+      "Gym",
+      "Washing Machine",
+      "Parking",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No loud music",
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/27.jpg",
+    "tags": [
+      "Student",
+      "Calm"
+    ],
+    "compatibility": 68
+  },
+  {
+    "name": "Jonathan Hegmann",
+    "age": 20,
+    "avatar": "https://avatars.githubusercontent.com/u/58059012",
+    "isVerified": true,
+    "lastActive": "46 minutes ago",
+    "userType": "owner",
+    "intent": "looking-for-flat",
+    "gender": "female",
+    "college": "Feeney - Dietrich",
+    "course": "B.Tech in Grocery",
+    "year": "Graduated",
+    "company": "Lynch, Bednar and Terry",
+    "jobTitle": "Customer Mobility Agent",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹22000 - ₹49000",
+    "roomType": "Single Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "1 year or more",
+    "phone": "810-787-4169 x779",
+    "email": "clifford_hegmann93@hotmail.com",
+    "description": "Delectatio sulum harum distinctio cornu cenaculum asperiores vestigium demoror. A odio usque sordeo.",
+    "habits": [
+      "Calm",
+      "Social"
+    ],
+    "amenities": [
+      "Parking",
+      "TV"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/81003274",
+    "tags": [
+      "Student",
+      "Friendly",
+      "Professional",
+      "Techie"
+    ],
+    "compatibility": 67
+  },
+  {
+    "name": "Craig Lockman",
+    "age": 21,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/36.jpg",
+    "isVerified": false,
+    "lastActive": "9 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flatmate",
+    "gender": "male",
+    "college": "Erdman - Weimann",
+    "course": "B.Tech in Kids",
+    "year": "Graduated",
+    "company": "Osinski Inc",
+    "jobTitle": "Legacy Markets Director",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹28000 - ₹41000",
+    "roomType": "Shared Room",
+    "moveInDate": "June 2026",
+    "stayDuration": "1 year or more",
+    "phone": "(471) 949-6462 x5673",
+    "email": "emmanuel.okeefe24@hotmail.com",
+    "description": "Somnus dapifer abduco theca modi velit currus paulatim tamdiu arca. Suffoco deporto adeptio absque solium.",
+    "habits": [
+      "Organized",
+      "Early Riser",
+      "Clean"
+    ],
+    "amenities": [
+      "WiFi",
+      "Parking",
+      "TV"
+    ],
+    "restrictions": [
+      "No loud music",
+      "No pets"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": true,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/55066727",
+    "tags": [
+      "Friendly",
+      "Hyderabad"
+    ],
+    "compatibility": 50
+  },
+  {
+    "name": "Floyd Wisoky",
+    "age": 29,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/94.jpg",
+    "isVerified": false,
+    "lastActive": "29 minutes ago",
+    "userType": "owner",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Cassin, Feil and Willms",
+    "course": "B.Tech in Games",
+    "year": "Graduated",
+    "company": "Schmeler, Lockman and Bechtelar",
+    "jobTitle": "Corporate Creative Director",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹28000 - ₹42000",
+    "roomType": "Single Room",
+    "moveInDate": "May 2026",
+    "stayDuration": "6 months",
+    "phone": "883.934.3869 x2329",
+    "email": "dave59@yahoo.com",
+    "description": "Textor deprimo bardus deleniti stabilis. Acervus dolores vivo totidem volup.",
+    "habits": [
+      "Night Owl",
+      "Calm"
+    ],
+    "amenities": [
+      "Gym",
+      "Parking",
+      "AC",
+      "Washing Machine"
+    ],
+    "restrictions": [
+      "No pets",
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": true,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/23181955",
+    "tags": [
+      "Student",
+      "Techie"
+    ],
+    "compatibility": 72
+  },
+  {
+    "name": "Mrs. Mindy Weber-Nicolas",
+    "age": 27,
+    "avatar": "https://avatars.githubusercontent.com/u/33244327",
+    "isVerified": true,
+    "lastActive": "47 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "female",
+    "college": "Konopelski - Hyatt",
+    "course": "B.Tech in Home",
+    "year": "Graduated",
+    "company": "Feest LLC",
+    "jobTitle": "Senior Communications Orchestrator",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹33000 - ₹42000",
+    "roomType": "Single Room",
+    "moveInDate": "March 2026",
+    "stayDuration": "6 months",
+    "phone": "(789) 677-1498",
+    "email": "ruth_toy@yahoo.com",
+    "description": "Aliquid conatus voluptatum umerus comprehendo cunae eius utique ulterius. Coerceo soleo vero subito vesica cohaero sophismata accusamus ultra debeo.",
+    "habits": [
+      "Organized",
+      "Calm",
+      "Night Owl"
+    ],
+    "amenities": [
+      "WiFi",
+      "AC",
+      "Parking"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/10253657",
+    "tags": [
+      "Social",
+      "Friendly",
+      "Techie",
+      "Professional"
+    ],
+    "compatibility": 93
+  },
+  {
+    "name": "Sheila Volkman",
+    "age": 32,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/95.jpg",
+    "isVerified": true,
+    "lastActive": "111 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "female",
+    "college": "Murphy Inc",
+    "course": "B.Tech in Kids",
+    "year": "Graduated",
+    "company": "Jacobi Group",
+    "jobTitle": "Chief Intranet Coordinator",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹29000 - ₹40000",
+    "roomType": "Single Room",
+    "moveInDate": "January 2026",
+    "stayDuration": "1 year or more",
+    "phone": "(375) 793-2089 x2822",
+    "email": "fermin_reynolds42@yahoo.com",
+    "description": "Conor sunt facere. Spiritus aequus delego administratio talus.",
+    "habits": [
+      "Social",
+      "Calm"
+    ],
+    "amenities": [
+      "Gym",
+      "TV",
+      "Washing Machine",
+      "AC"
+    ],
+    "restrictions": [
+      "No pets"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/64668290",
+    "tags": [
+      "Social",
+      "Calm"
+    ],
+    "compatibility": 55
+  },
+  {
+    "name": "Esther Mraz",
+    "age": 30,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/77.jpg",
+    "isVerified": true,
+    "lastActive": "38 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Herzog, Rohan and Thiel",
+    "course": "B.Tech in Health",
+    "year": "Graduated",
+    "company": "Lehner - Hermann",
+    "jobTitle": "Regional Infrastructure Administrator",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹22000 - ₹47000",
+    "roomType": "Single Room",
+    "moveInDate": "June 2026",
+    "stayDuration": "1 year or more",
+    "phone": "430-384-9716 x929",
+    "email": "percy_quigley2@gmail.com",
+    "description": "Texo est agnitio pecto utique conspergo dolorem tendo cometes. Aspicio cur triumphus.",
+    "habits": [
+      "Organized",
+      "Night Owl",
+      "Early Riser",
+      "Social"
+    ],
+    "amenities": [
+      "Washing Machine",
+      "AC"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://avatars.githubusercontent.com/u/3811339",
+    "tags": [
+      "Friendly",
+      "Professional",
+      "Techie",
+      "Social"
+    ],
+    "compatibility": 77
+  },
+  {
+    "name": "Terry Senger",
+    "age": 31,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/7.jpg",
+    "isVerified": false,
+    "lastActive": "99 minutes ago",
+    "userType": "owner",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Hane - Mertz",
+    "course": "B.Tech in Jewelry",
+    "year": "Graduated",
+    "company": "Wolf LLC",
+    "jobTitle": "Product Intranet Administrator",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹24000 - ₹46000",
+    "roomType": "Single Room",
+    "moveInDate": "December 2025",
+    "stayDuration": "6 months",
+    "phone": "644-452-6971 x505",
+    "email": "dortha79@yahoo.com",
+    "description": "Vesica eligendi aiunt tabula laboriosam. Theologus allatus aro desolo tenus.",
+    "habits": [
+      "Organized",
+      "Calm",
+      "Early Riser"
+    ],
+    "amenities": [
+      "Washing Machine",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No pets",
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/49.jpg",
+    "tags": [
+      "Friendly",
+      "Hyderabad"
+    ],
+    "compatibility": 52
+  },
+  {
+    "name": "Maurice DuBuque",
+    "age": 25,
+    "avatar": "https://avatars.githubusercontent.com/u/74555620",
+    "isVerified": true,
+    "lastActive": "9 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flatmate",
+    "gender": "any",
+    "college": "Hauck, Kautzer and Lindgren",
+    "course": "B.Tech in Home",
+    "year": "Graduated",
+    "company": "Stehr Group",
+    "jobTitle": "Senior Identity Facilitator",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹22000 - ₹48000",
+    "roomType": "Shared Room",
+    "moveInDate": "December 2025",
+    "stayDuration": "1 year or more",
+    "phone": "(308) 444-1939",
+    "email": "idella.olson33@yahoo.com",
+    "description": "Utroque vaco aspicio. Cado tunc coniuratio delego conitor tamquam infit.",
+    "habits": [
+      "Social",
+      "Calm",
+      "Night Owl",
+      "Organized"
+    ],
+    "amenities": [
+      "Gym",
+      "TV",
+      "AC",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": true,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/81601689",
+    "tags": [
+      "Student",
+      "Professional",
+      "Friendly"
+    ],
+    "compatibility": 88
+  },
+  {
+    "name": "Michele Veum",
+    "age": 31,
+    "avatar": "https://avatars.githubusercontent.com/u/30487783",
+    "isVerified": true,
+    "lastActive": "93 minutes ago",
+    "userType": "student",
+    "intent": "have-flat-need-flatmate",
+    "gender": "any",
+    "college": "Romaguera - Lubowitz",
+    "course": "B.Tech in Automotive",
+    "year": "Graduated",
+    "company": "Goldner - Torphy",
+    "jobTitle": "Principal Communications Producer",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹24000 - ₹46000",
+    "roomType": "Shared Room",
+    "moveInDate": "May 2026",
+    "stayDuration": "1 year or more",
+    "phone": "919-986-1843 x7126",
+    "email": "haylie16@gmail.com",
+    "description": "Pauper summisse ars decens arbitro talis vomica amitto. Stella voro tam adstringo attero cuius campana cupiditate tonsor quae.",
+    "habits": [
+      "Social",
+      "Calm",
+      "Clean",
+      "Organized"
+    ],
+    "amenities": [
+      "WiFi",
+      "AC",
+      "Parking"
+    ],
+    "restrictions": [
+      "No loud music",
+      "No pets"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/38.jpg",
+    "tags": [
+      "Social",
+      "Professional"
+    ],
+    "compatibility": 78
+  },
+  {
+    "name": "Preston Hartmann",
+    "age": 26,
+    "avatar": "https://avatars.githubusercontent.com/u/36465723",
+    "isVerified": true,
+    "lastActive": "94 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flat",
+    "gender": "female",
+    "college": "Daniel, Berge and Leuschke",
+    "course": "B.Tech in Music",
+    "year": "Graduated",
+    "company": "Reichert and Sons",
+    "jobTitle": "Product Assurance Specialist",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Banjara Hills, Hyderabad",
+    "budget": "₹35000 - ₹49000",
+    "roomType": "Single Room",
+    "moveInDate": "June 2026",
+    "stayDuration": "1 year or more",
+    "phone": "575-854-4584 x0916",
+    "email": "jalyn98@gmail.com",
+    "description": "Tergiversatio patrocinor decens color repellendus. Cupiditas viduo ea sequi adfectus voluptates.",
+    "habits": [
+      "Clean",
+      "Early Riser"
+    ],
+    "amenities": [
+      "Parking",
+      "WiFi",
+      "AC"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": false,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/87141642",
+    "tags": [
+      "Techie",
+      "Calm"
+    ],
+    "compatibility": 87
+  },
+  {
+    "name": "Matthew Balistreri",
+    "age": 22,
+    "avatar": "https://avatars.githubusercontent.com/u/24404701",
+    "isVerified": false,
+    "lastActive": "22 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flat",
+    "gender": "male",
+    "college": "Lueilwitz - Borer",
+    "course": "B.Tech in Jewelry",
+    "year": "Graduated",
+    "company": "Kutch and Sons",
+    "jobTitle": "Senior Configuration Architect",
+    "workLocation": "Kondapur, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹35000 - ₹48000",
+    "roomType": "Shared Room",
+    "moveInDate": "February 2026",
+    "stayDuration": "6 months",
+    "phone": "1-446-833-7438 x6119",
+    "email": "mathew_mclaughlin76@hotmail.com",
+    "description": "Ipsam viduo delibero balbus viduo. Bestia traho callide voluptatum comminor cunabula tumultus comedo.",
+    "habits": [
+      "Organized",
+      "Early Riser"
+    ],
+    "amenities": [
+      "Washing Machine",
+      "AC",
+      "Gym"
+    ],
+    "restrictions": [
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": false,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/41283197",
+    "tags": [
+      "Techie",
+      "Calm"
+    ],
+    "compatibility": 100
+  },
+  {
+    "name": "Opal Dooley DDS",
+    "age": 29,
+    "avatar": "https://avatars.githubusercontent.com/u/48404649",
+    "isVerified": true,
+    "lastActive": "90 minutes ago",
+    "userType": "owner",
+    "intent": "have-flat-need-flatmate",
+    "gender": "male",
+    "college": "Reynolds, Rodriguez and Mueller",
+    "course": "B.Tech in Games",
+    "year": "Graduated",
+    "company": "Kub and Sons",
+    "jobTitle": "Human Factors Administrator",
+    "workLocation": "Madhapur, Hyderabad",
+    "location": "Madhapur, Hyderabad",
+    "budget": "₹23000 - ₹41000",
+    "roomType": "Single Room",
+    "moveInDate": "October 2025",
+    "stayDuration": "6 months",
+    "phone": "333.454.0417 x727",
+    "email": "dane.pollich-simonis@hotmail.com",
+    "description": "Acies perferendis stipes succurro. Aperte ipsum pariatur suus villa vigor timor amor aveho.",
+    "habits": [
+      "Night Owl",
+      "Organized"
+    ],
+    "amenities": [
+      "AC",
+      "Parking",
+      "Gym"
+    ],
+    "restrictions": [
+      "No smoking indoors",
+      "No pets"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": false,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/49780669",
+    "tags": [
+      "Friendly",
+      "Hyderabad",
+      "Professional"
+    ],
+    "compatibility": 72
+  },
+  {
+    "name": "Brooke Moen",
+    "age": 35,
+    "avatar": "https://avatars.githubusercontent.com/u/86197432",
+    "isVerified": true,
+    "lastActive": "27 minutes ago",
+    "userType": "student",
+    "intent": "looking-for-flat",
+    "gender": "female",
+    "college": "Boehm and Sons",
+    "course": "B.Tech in Games",
+    "year": "Graduated",
+    "company": "Bahringer, Brakus and Graham",
+    "jobTitle": "Future Group Assistant",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Gachibowli, Hyderabad",
+    "budget": "₹19000 - ₹42000",
+    "roomType": "Single Room",
+    "moveInDate": "January 2026",
+    "stayDuration": "6 months",
+    "phone": "1-412-441-8882 x599",
+    "email": "katrina.erdman54@hotmail.com",
+    "description": "Demo maiores bis bis cognatus versus. Vulgivagus creptio ullam aptus adinventitias adsuesco aspicio celo.",
+    "habits": [
+      "Night Owl",
+      "Organized"
+    ],
+    "amenities": [
+      "AC",
+      "Washing Machine",
+      "Parking",
+      "TV"
+    ],
+    "restrictions": [
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": true,
+      "email": true,
+      "college": true,
+      "identity": false
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/79734766",
+    "tags": [
+      "Techie",
+      "Social",
+      "Hyderabad",
+      "Student"
+    ],
+    "compatibility": 68
+  },
+  {
+    "name": "Dr. Gloria Simonis II",
+    "age": 32,
+    "avatar": "https://avatars.githubusercontent.com/u/39125677",
+    "isVerified": true,
+    "lastActive": "117 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flat",
+    "gender": "female",
+    "college": "Hintz, Donnelly and Vandervort",
+    "course": "B.Tech in Outdoors",
+    "year": "Graduated",
+    "company": "Swaniawski and Sons",
+    "jobTitle": "Lead Data Officer",
+    "workLocation": "Gachibowli, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹16000 - ₹50000",
+    "roomType": "Shared Room",
+    "moveInDate": "September 2025",
+    "stayDuration": "1 year or more",
+    "phone": "(233) 648-7646 x3694",
+    "email": "osbaldo45@hotmail.com",
+    "description": "Utroque cibo acies combibo arx pauci. Fugiat sulum a cupiditate delicate.",
+    "habits": [
+      "Social",
+      "Night Owl",
+      "Early Riser"
+    ],
+    "amenities": [
+      "Parking",
+      "AC"
+    ],
+    "restrictions": [
+      "No loud music",
+      "No smoking indoors"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": true
+    },
+    "type": "flat",
+    "image": "https://avatars.githubusercontent.com/u/74665677",
+    "tags": [
+      "Professional",
+      "Calm",
+      "Student",
+      "Social"
+    ],
+    "compatibility": 86
+  },
+  {
+    "name": "Isabel Batz IV",
+    "age": 26,
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/53.jpg",
+    "isVerified": true,
+    "lastActive": "23 minutes ago",
+    "userType": "professional",
+    "intent": "looking-for-flat",
+    "gender": "male",
+    "college": "Jenkins - Reynolds",
+    "course": "B.Tech in Tools",
+    "year": "Graduated",
+    "company": "Tillman, Reynolds and Prosacco",
+    "jobTitle": "Principal Applications Manager",
+    "workLocation": "Banjara Hills, Hyderabad",
+    "location": "Kondapur, Hyderabad",
+    "budget": "₹33000 - ₹49000",
+    "roomType": "Shared Room",
+    "moveInDate": "January 2026",
+    "stayDuration": "1 year or more",
+    "phone": "895.293.5192 x361",
+    "email": "ethelyn.maggio@yahoo.com",
+    "description": "Aspicio aliquam deputo. Ago corporis astrum cognomen cubitum aduro vicissitudo quia torqueo.",
+    "habits": [
+      "Early Riser",
+      "Clean",
+      "Social",
+      "Night Owl"
+    ],
+    "amenities": [
+      "AC",
+      "TV",
+      "Parking",
+      "WiFi"
+    ],
+    "restrictions": [
+      "No loud music"
+    ],
+    "verifications": {
+      "phone": false,
+      "email": false,
+      "college": true,
+      "identity": false
+    },
+    "type": "flatmate",
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/25.jpg",
+    "tags": [
+      "Student",
+      "Techie",
+      "Friendly"
+    ],
+    "compatibility": 54
+  }
+]

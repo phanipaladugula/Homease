@@ -1,0 +1,206 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html, body {
+    @apply h-full overflow-x-hidden;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary border border-primary hover:bg-primary/5 transition-all duration-300 shadow-sm hover:shadow-md;
+  }
+  
+  .flatmate-card {
+    @apply bg-white border border-primary/20 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+  }
+  
+  .hero-gradient {
+    @apply bg-gradient-to-br from-white via-primary/5 to-primary/10 relative;
+  }
+  
+  .page-gradient {
+    @apply bg-gradient-to-br from-white via-primary/5 to-primary/10 min-h-screen;
+  }
+  
+  .profile-card {
+    @apply bg-white border border-primary/20 rounded-xl shadow-md hover:shadow-lg transition-all duration-300;
+  }
+  
+  .form-section {
+    @apply space-y-6 p-6 bg-white/80 rounded-xl border border-primary/20 backdrop-blur-sm;
+  }
+  
+  .verification-badge {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 border border-green-200;
+  }
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 30 8% 20%;
+  --card: 0 0% 100%;
+  --card-foreground: 30 8% 20%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 30 8% 20%;
+  --primary: 35 25% 65%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 35 10% 95%;
+  --secondary-foreground: 35 25% 65%;
+  --muted: 35 10% 96%;
+  --muted-foreground: 35 8% 45%;
+  --accent: 35 15% 90%;
+  --accent-foreground: 35 25% 65%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 35 15% 85%;
+  --input: 35 15% 85%;
+  --ring: 35 25% 65%;
+  --radius: 0.75rem;
+  --beige-primary: 35 25% 65%;
+  --beige-secondary: 35 15% 85%;
+  --beige-accent: 35 20% 75%;
+}
+
+.dark {
+  --background: 30 8% 8%;
+  --foreground: 0 0% 100%;
+  --card: 30 8% 8%;
+  --card-foreground: 0 0% 100%;
+  --popover: 30 8% 8%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 35 25% 65%;
+  --primary-foreground: 30 8% 8%;
+  --secondary: 30 8% 15%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 30 8% 15%;
+  --muted-foreground: 30 8% 65%;
+  --accent: 30 8% 15%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 30 8% 15%;
+  --input: 30 8% 15%;
+  --ring: 35 25% 65%;
+}
+
+/* Enhanced Animation System */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes word-morph {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.8);
+  }
+  20% {
+    opacity: 0.3;
+    transform: translateY(15px) scale(0.9);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateY(-5px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px hsl(var(--primary) / 0.5);
+  }
+}
+
+/* Animation Classes */
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-word-morph {
+  animation: word-morph 1s ease-out;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 4px;
+  border: 1px solid hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.8);
+}
