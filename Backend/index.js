@@ -204,7 +204,7 @@ app.put('/api/profiles/:id', async (req, res) => {
   }
 });
 
-// POST login
+// Post Login
 app.post('/api/login', async (req, res) => {
   const { email, password } = req.body;
   try {
