@@ -24,7 +24,7 @@ import {
 import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-
+// signup page edites
 
 // A placeholder component for ImageUpload to prevent compilation errors.
 const ImageUpload = ({ onImageSelect, currentImage }: { onImageSelect: (file: File) => void, currentImage: string | null }) => {
