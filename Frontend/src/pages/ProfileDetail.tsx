@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { ArrowLeft, MapPin, Phone, Mail, GraduationCap, Briefcase, Home, Heart, Star, Clock, Shield, Check, Eye, IndianRupee, Calendar, Users, AlertCircle, Lock, Building, BedDouble, Bath } from 'lucide-react';
-
+// Edited on 30 July by Nisha
 const API_URL = 'http://localhost:5001/api';
 
 const ProfileDetail = () => {
