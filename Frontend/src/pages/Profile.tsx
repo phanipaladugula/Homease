@@ -64,7 +64,7 @@ const Profile = () => {
   const [userData, setUserData] = useState<any>(null); // This will hold the displayed data
   const [formData, setFormData] = useState<any>(null); // This will be used for the edit form
   const [loading, setLoading] = useState(true);
-
+//effect is working fine and with the backend part also
   useEffect(() => {
     const fetchUserProfile = async () => {
       // Use "userProfile" which is set on signup/login
