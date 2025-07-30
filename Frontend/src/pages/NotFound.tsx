@@ -4,6 +4,7 @@ import { useEffect } from "react";
 const NotFound = () => {
   const location = useLocation();
 
+  //using useeffect for making it affect after clicking on any error
   useEffect(() => {
     console.error(
       "404 Error: User attempted to access non-existent route:",
