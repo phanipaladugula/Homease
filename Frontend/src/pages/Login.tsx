@@ -32,8 +32,7 @@ const Login = () => {
       // **FIXED:** Create a smaller object for localStorage that excludes the large image data.
       // The full profile (including the image) is still available in the 'profile' variable for immediate use.
       const { avatar, image, ...localUserData } = profile;
-      localStorage.setItem('userSignupData', JSON.stringify(localUserData));
-      
+      localStorage.setItem('userProfile', JSON.stringify(localUserData));      
       // Also, you might want to store a simple login flag or token
       localStorage.setItem('isLoggedIn', 'true');
 

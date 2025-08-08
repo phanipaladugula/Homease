@@ -62,7 +62,7 @@ const PostFlat = () => {
 
   useEffect(() => {
     // Load the currently logged-in user's data from localStorage
-    const loggedInData = localStorage.getItem('userSignupData');
+    const loggedInData = localStorage.getItem('userProfile'); // ✅ Corrected key
     if (loggedInData) {
       setCurrentUser(JSON.parse(loggedInData));
     } else {

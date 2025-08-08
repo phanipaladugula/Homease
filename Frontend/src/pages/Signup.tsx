@@ -205,7 +205,7 @@ const Signup = () => {
     setShowAiModal(false);
     setIsGenerating(true);
 
-    const apiKey = "AIzaSyCVGJoOxAHA1dZuNTxT1bbrzrgi9cQIVjc"; // <-- PASTE YOUR API KEY HERE
+     const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     
     if (!apiKey) {
         toast({ title: "AI Generation Failed", description: "API Key is missing.", variant: "destructive" });
@@ -279,12 +279,13 @@ const Signup = () => {
 
   const handleSubmit = async () => {
     if (!validateStep(steps.length)) {
-      toast({ title: "Please accept terms and conditions", variant: "destructive" });
-      return;
+        toast({ title: "Please accept terms and conditions", variant: "destructive" });
+        return;
     }
     
     setIsSubmitting(true);
 
+    // Prepare data to be sent to the server, including the full avatar string
     const profileData = {
         name: formData.name,
         email: formData.email,
@@ -293,8 +294,8 @@ const Signup = () => {
         gender: formData.gender,
         userType: formData.userType,
         phone: `+91${formData.phone}`,
-        avatar: formData.avatar,
-        image: formData.avatar,
+        avatar: formData.avatar, // Send the full avatar data (URL or Base64)
+        image: formData.avatar,  // Send the full avatar data (URL or Base64)
         location: `${formData.preferredLocation}, ${formData.city}`,
         habits: formData.habits,
         description: formData.description,
@@ -337,7 +338,16 @@ const Signup = () => {
         const response = await axios.post('http://localhost:5001/api/profiles', profileData);
         
         const newProfile = response.data.profile;
-        localStorage.setItem('userProfile', JSON.stringify(newProfile));
+
+        // Conditionally handle localStorage to keep small URLs but discard large Base64 data.
+        if (newProfile.avatar && newProfile.avatar.startsWith('data:image')) {
+            // If it's a Base64 string from a file upload, remove it before saving to avoid errors.
+            const { avatar, image, ...profileToStore } = newProfile;
+            localStorage.setItem('userProfile', JSON.stringify(profileToStore));
+        } else {
+            // If it's a URL (or empty), save the whole profile. The URL is small and useful.
+            localStorage.setItem('userProfile', JSON.stringify(newProfile));
+        }
 
         toast({ title: "Account Created Successfully!", description: "Welcome! Please verify your phone number." });
         
@@ -351,7 +361,7 @@ const Signup = () => {
     } finally {
         setIsSubmitting(false);
     }
-  };
+};
 
 
   const habitsList = ["Clean", "Early Riser", "Vegetarian", "Pet Friendly", "Night Owl", "Cooking", "Social", "Fitness", "Studious", "Quiet", "Non-Smoker"];
@@ -602,4 +612,3 @@ const Signup = () => {
 };
 
 export default Signup;
-

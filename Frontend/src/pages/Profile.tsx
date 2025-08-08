@@ -307,13 +307,13 @@ const Profile = () => {
             
             {isEditing && <Button onClick={handleSave} className="w-full bg-primary text-white">Save Changes</Button>}
 
-            <Card className="bg-white/95">
+            {/* <Card className="bg-white/95">
               <CardHeader><CardTitle>Profile Actions</CardTitle></CardHeader>
               <CardContent className="space-y-3">
                 <Button variant="outline" className="w-full" onClick={() => navigate('/home')}><Users className="h-4 w-4 mr-2" />Find Matches</Button>
                 <Button variant="outline" className="w-full" onClick={() => navigate('/settings')}><Settings className="h-4 w-4 mr-2" />Settings</Button>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </div>
