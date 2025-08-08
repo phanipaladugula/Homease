@@ -10,7 +10,11 @@ require('dotenv').config();
 const app = express();
 
 // --- Middleware ---
-app.use(cors());
+const frontendURL = "https://homease-omega.vercel.app"; 
+
+app.use(cors({
+  origin: frontendURL
+}));
 app.use(express.json({ limit: '10mb' }));
 
 // --- Database Connection ---
