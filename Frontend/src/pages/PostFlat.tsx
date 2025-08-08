@@ -11,7 +11,7 @@ import { MapPin, Home, Upload, Plus, X, Sparkles, Loader2, PartyPopper, AlertTri
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useToast } from '@/hooks/use-toast';
-
+//added:- niharika
 // A placeholder component for ImageUpload to prevent compilation errors.
 const ImageUpload = ({ onImageSelect, className }: { onImageSelect: (file: File) => void, className?: string }) => {
     const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {

@@ -10,7 +10,7 @@ import RatingScale from '@/components/RatingScale';
 const PersonalityTest = () => {
   const navigate = useNavigate();
   const [answers, setAnswers] = useState<Record<string, number>>({});
-
+//added:- niharika
   const questions = [
     "I prefer staying in rather than going out to social events",
     "I enjoy having detailed plans for my day and week",
