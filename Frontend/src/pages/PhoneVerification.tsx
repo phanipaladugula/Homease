@@ -6,9 +6,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowLeft, Phone, Shield, Clock, CheckCircle, AlertCircle, Edit } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
-
+import apiClient from '../api';
 // Mock service for demonstration. In a real app, this would be a real service.
-const API_KEY = "94ee5453-6ba5-11f0-a562-0200cd936042"; // Replace with your real API key
+const API_KEY = import.meta.env.VITE_2FACTOR_API_KEY; // Replace with your real API key
 
 const PhoneVerificationService = {
   sendOTP: async (phone: string) => {
@@ -132,10 +132,10 @@ const PhoneVerification = () => {
             const user = JSON.parse(storedProfile);
             
             // 2. Send request to backend to update verification status.
-            const updateResponse = await axios.post('http://localhost:5001/api/profiles/verify-phone', { 
-                email: user.email,
-                phone: `+91${phoneNumber}`
-            });
+           const updateResponse = await apiClient.post('/profiles/verify-phone', { 
+        email: user.email,
+        phone: `+91${phoneNumber}`
+    });
 
             // 3. IMPORTANT: Update the userProfile in localStorage with the fresh, verified data from the server.
             if (updateResponse.data && updateResponse.data.profile) {

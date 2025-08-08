@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Textarea } from '@/components/ui/textarea';
+import apiClient from '../api'; 
 import { 
   User, 
   Mail, 
@@ -335,7 +336,7 @@ const Signup = () => {
     }
 
     try {
-        const response = await axios.post('http://localhost:5001/api/profiles', profileData);
+        const response = await apiClient.post('/profiles', profileData);
         
         const newProfile = response.data.profile;
 

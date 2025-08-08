@@ -9,7 +9,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { MapPin, Home, Upload, Plus, X, Sparkles, Loader2, PartyPopper, AlertTriangle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import apiClient from '../api';
 import { useToast } from '@/hooks/use-toast';
 //added:- niharika
 // A placeholder component for ImageUpload to prevent compilation errors.
@@ -107,7 +107,7 @@ const PostFlat = () => {
     setShowAiModal(false);
     setIsGenerating(true);
     
-    const apiKey = "AIzaSyCVGJoOxAHA1dZuNTxT1bbrzrgi9cQIVjc"; // API key is handled by the environment
+      const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // API key is handled by the environment
 
     const { title, location, rent, flatType, furnishing, amenities } = formData;
     
@@ -192,7 +192,7 @@ const PostFlat = () => {
 
     try {
         // This POST request creates a new profile document AND a new account document in the database
-        await axios.post('http://localhost:5001/api/profiles', flatProfileData);
+        await apiClient.post('/profiles', flatProfileData);
         setSubmitStatus('success');
         toast({ title: "Success!", description: "Your flat has been posted." });
         setTimeout(() => navigate('/home'), 2000);
