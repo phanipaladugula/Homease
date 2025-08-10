@@ -7,6 +7,8 @@ import { Home, Eye, EyeOff, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
+import apiClient from '../api';
+
 
 const Login = () => {
   const navigate = useNavigate();
@@ -24,7 +26,7 @@ const Login = () => {
 
     try {
       // Send login credentials to the backend API
-      const response = await axios.post('http://localhost:5001/api/login', formData);
+       const response = await apiClient.post('/login', formData);
 
       // If login is successful, the backend will send back the user's profile data
       const { profile } = response.data;
@@ -32,8 +34,7 @@ const Login = () => {
       // **FIXED:** Create a smaller object for localStorage that excludes the large image data.
       // The full profile (including the image) is still available in the 'profile' variable for immediate use.
       const { avatar, image, ...localUserData } = profile;
-      localStorage.setItem('userSignupData', JSON.stringify(localUserData));
-      
+      localStorage.setItem('userProfile', JSON.stringify(localUserData));      
       // Also, you might want to store a simple login flag or token
       localStorage.setItem('isLoggedIn', 'true');
 

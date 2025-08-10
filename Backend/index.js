@@ -10,7 +10,11 @@ require('dotenv').config();
 const app = express();
 
 // --- Middleware ---
-app.use(cors());
+const frontendURL = "https://homease-omega.vercel.app"; 
+
+app.use(cors({
+  origin: frontendURL
+}));
 app.use(express.json({ limit: '10mb' }));
 
 // --- Database Connection ---
@@ -18,7 +22,7 @@ const mongoURI = process.env.MONGO_URI;
 mongoose.connect(mongoURI)
   .then(() => {
     console.log('Successfully connected to MongoDB Atlas!');
-    initializeDatabase(); // Restored the call to initialize the database
+    initializeDatabase(); 
   })
   .catch(err => console.error('Error connecting to MongoDB:', err));
 
@@ -48,7 +52,7 @@ const profileSchema = new mongoose.Schema({
   listingLocations: { type: String },
   type: { type: String, enum: ['flatmate', 'flat'], required: true },
   image: { type: String },
-  avatar: { type: String }, // For the profile photo
+  avatar: { type: String }, 
   tags: { type: [String] },
   compatibility: { type: Number },
   amenities: { type: [String] },
@@ -96,13 +100,13 @@ const initializeDatabase = async () => {
             return;
         }
         const fileContent = fs.readFileSync(dataFilePath, 'utf8');
-        const sampleProfiles = JSON.parse(fileContent); // Using JSON.parse for safety and correctness
+        const sampleProfiles = JSON.parse(fileContent); 
 
         await Profile.insertMany(sampleProfiles);
         
         const sampleAccounts = sampleProfiles.map(profile => ({
             email: profile.email,
-            password: 'password123' // Assign a default password
+            password: 'password123'
         }));
         await Account.insertMany(sampleAccounts);
 
@@ -204,7 +208,7 @@ app.put('/api/profiles/:id', async (req, res) => {
   }
 });
 
-// POST login
+// Post Login
 app.post('/api/login', async (req, res) => {
   const { email, password } = req.body;
   try {

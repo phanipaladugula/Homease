@@ -7,6 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
+import apiClient from '../api';
 import { 
   User, 
   Phone, 
@@ -28,7 +29,6 @@ import {
 import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api';
 
 // A placeholder component for ImageUpload to prevent compilation errors.
 const ImageUpload = ({ onImageSelect, currentImage }: { onImageSelect: (file: File) => void, currentImage: string | null }) => {
@@ -64,7 +64,7 @@ const Profile = () => {
   const [userData, setUserData] = useState<any>(null); // This will hold the displayed data
   const [formData, setFormData] = useState<any>(null); // This will be used for the edit form
   const [loading, setLoading] = useState(true);
-
+//effect is working fine and with the backend part also
   useEffect(() => {
     const fetchUserProfile = async () => {
       // Use "userProfile" which is set on signup/login
@@ -79,7 +79,7 @@ const Profile = () => {
 
       try {
         // Fetch the LATEST profile data from the server using the email
-        const response = await axios.get(`${API_URL}/profiles/email/${localUser.email}`);
+        const response = await apiClient.get(`/profiles/email/${localUser.email}`);
         const freshProfile = response.data;
         
         setUserData(freshProfile);
@@ -117,7 +117,7 @@ const Profile = () => {
     }
     
     try {
-        const response = await axios.put(`${API_URL}/profiles/${formData._id}`, formData);
+        const response = await apiClient.put(`/profiles/${formData._id}`, formData);
         const updatedProfile = response.data.profile;
         
         localStorage.setItem('userProfile', JSON.stringify(updatedProfile));
@@ -307,13 +307,13 @@ const Profile = () => {
             
             {isEditing && <Button onClick={handleSave} className="w-full bg-primary text-white">Save Changes</Button>}
 
-            <Card className="bg-white/95">
+            {/* <Card className="bg-white/95">
               <CardHeader><CardTitle>Profile Actions</CardTitle></CardHeader>
               <CardContent className="space-y-3">
                 <Button variant="outline" className="w-full" onClick={() => navigate('/home')}><Users className="h-4 w-4 mr-2" />Find Matches</Button>
                 <Button variant="outline" className="w-full" onClick={() => navigate('/settings')}><Settings className="h-4 w-4 mr-2" />Settings</Button>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </div>

@@ -14,7 +14,8 @@ const Landing = () => {
     { word: "flatmate", gradient: "from-primary via-beige-accent to-primary" },
     { word: "home", gradient: "from-beige-accent via-primary to-beige-accent" }
   ];
-
+//added :- niharika
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentText((prev) => (prev + 1) % scrollingTexts.length);
@@ -108,7 +109,7 @@ const Landing = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Users className="h-4 w-4 text-primary" />
-                <span>5,200+ Users</span>
+                <span>100+ Users</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Award className="h-4 w-4 text-primary" />
@@ -161,15 +162,15 @@ const Landing = () => {
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Trusted by Students & Professionals</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="group hover:scale-110 transition-all duration-300 p-8 rounded-2xl bg-white/80 backdrop-blur-sm border border-primary/20 shadow-lg hover:shadow-xl">
-              <div className="text-5xl font-bold text-primary group-hover:text-primary/80 transition-colors mb-2">5,200+</div>
+              <div className="text-5xl font-bold text-primary group-hover:text-primary/80 transition-colors mb-2">100+</div>
               <div className="text-gray-600 font-medium">Verified Users</div>
             </div>
             <div className="group hover:scale-110 transition-all duration-300 p-8 rounded-2xl bg-white/80 backdrop-blur-sm border border-primary/20 shadow-lg hover:shadow-xl">
-              <div className="text-5xl font-bold text-primary group-hover:text-primary/80 transition-colors mb-2">1,800+</div>
+              <div className="text-5xl font-bold text-primary group-hover:text-primary/80 transition-colors mb-2">40+</div>
               <div className="text-gray-600 font-medium">Properties Listed</div>
             </div>
             <div className="group hover:scale-110 transition-all duration-300 p-8 rounded-2xl bg-white/80 backdrop-blur-sm border border-primary/20 shadow-lg hover:shadow-xl">
-              <div className="text-5xl font-bold text-primary group-hover:text-primary/80 transition-colors mb-2">3,400+</div>
+              <div className="text-5xl font-bold text-primary group-hover:text-primary/80 transition-colors mb-2">30+</div>
               <div className="text-gray-600 font-medium">Successful Matches</div>
             </div>
             <div className="group hover:scale-110 transition-all duration-300 p-8 rounded-2xl bg-white/80 backdrop-blur-sm border border-primary/20 shadow-lg hover:shadow-xl">

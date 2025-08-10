@@ -6,9 +6,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowLeft, Phone, Shield, Clock, CheckCircle, AlertCircle, Edit } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
-
+import apiClient from '../api';
 // Mock service for demonstration. In a real app, this would be a real service.
-const API_KEY = "94ee5453-6ba5-11f0-a562-0200cd936042"; // Replace with your real API key
+const API_KEY = import.meta.env.VITE_2FACTOR_API_KEY; // Replace with your real API key
 
 const PhoneVerificationService = {
   sendOTP: async (phone: string) => {
@@ -110,6 +110,8 @@ const PhoneVerification = () => {
     }
   };
 
+  // src/components/auth/PhoneVerification.tsx
+
   const handleVerifyOTP = async () => {
     if (!sessionId || otp.length !== 6) {
       toast({ title: "Invalid OTP", variant: "destructive" });
@@ -117,29 +119,47 @@ const PhoneVerification = () => {
     }
     setIsLoading(true);
     try {
-      const response = await PhoneVerificationService.verifyOTP(sessionId, otp);
-      if (response.success && response.verified) {
+      const otpResponse = await PhoneVerificationService.verifyOTP(sessionId, otp);
+      
+      if (otpResponse.success && otpResponse.verified) {
         
-        // **BACKEND UPDATE LOGIC**
-        // Get the user's email from localStorage to identify them
-        const signupData = localStorage.getItem('userSignupData');
-        if (signupData) {
-            const user = JSON.parse(signupData);
-            // Send request to backend to update verification status
-            await axios.post('http://localhost:5001/api/profiles/verify-phone', { 
-                email: user.email,
-                phone: `+91${phoneNumber}`
-            });
-        }
+        // --- FIXED: BACKEND UPDATE LOGIC ---
 
-        localStorage.setItem('phoneVerified', 'true');
-        toast({ title: "Phone Verified!", description: response.message });
+        // 1. Get the user's profile from localStorage using the CORRECT key.
+        const storedProfile = localStorage.getItem('userProfile');
+        
+        if (storedProfile) {
+            const user = JSON.parse(storedProfile);
+            
+            // 2. Send request to backend to update verification status.
+           const updateResponse = await apiClient.post('/profiles/verify-phone', { 
+        email: user.email,
+        phone: `+91${phoneNumber}`
+    });
+
+            // 3. IMPORTANT: Update the userProfile in localStorage with the fresh, verified data from the server.
+            if (updateResponse.data && updateResponse.data.profile) {
+                localStorage.setItem('userProfile', JSON.stringify(updateResponse.data.profile));
+            }
+        }
+        
+        // 4. The 'phoneVerified' flag is no longer needed as the main profile is now updated.
+        // localStorage.setItem('phoneVerified', 'true'); // This line is now redundant and can be removed.
+
+        toast({
+          title: "Phone Verified!",
+          description: "Your phone number has been successfully verified.",
+          className: "bg-green-100 border-green-400 text-green-700",
+        });
+
         setTimeout(() => navigate(returnUrl), 1000);
+
       } else {
-        toast({ title: "Verification Failed", description: response.message, variant: "destructive" });
+        toast({ title: "Verification Failed", description: otpResponse.message, variant: "destructive" });
       }
     } catch (error) {
-      toast({ title: "Error", description: "Verification failed.", variant: "destructive" });
+      console.error("Verification Error:", error);
+      toast({ title: "Error", description: "Verification failed due to a server error.", variant: "destructive" });
     } finally {
       setIsLoading(false);
     }

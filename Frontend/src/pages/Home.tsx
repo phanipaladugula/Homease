@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import apiClient from '../api';
 import {
   Search, Filter, MapPin, Home as HomeIcon,
   Heart, PlusCircle, User, X // Added X icon import
@@ -11,7 +12,6 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 // --- Configuration ---
-const API_URL = 'http://localhost:5001/api';
 
 // --- Fully Functional FilterSidebar Component ---
 const FilterSidebar = ({ filters, onFiltersChange, onClose }: { filters: any, onFiltersChange: (newFilters: any) => void, onClose: () => void }) => {
@@ -140,8 +140,8 @@ const Home = () => {
     const fetchProfiles = async () => {
       try {
         setLoading(true);
-        const response = await axios.get(`${API_URL}/profiles`);
-        setProfiles(response.data);
+       const response = await apiClient.get('/profiles'); 
+       setProfiles(response.data);
         setError(null);
       } catch (err) {
         console.error("Error fetching profiles:", err);

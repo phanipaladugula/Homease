@@ -19,7 +19,7 @@ import {
   AlertCircle,
   Settings as SettingsIcon
 } from 'lucide-react';
-
+// Setting page edited
 const Settings = () => {
   const navigate = useNavigate();
   const [isPhoneVerified, setIsPhoneVerified] = useState(false);
