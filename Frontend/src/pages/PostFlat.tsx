@@ -107,8 +107,10 @@ const PostFlat = () => {
     setShowAiModal(false);
     setIsGenerating(true);
     
-      const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // API key is handled by the environment
+// In PostFlat.tsx, inside handleGenerateDescription:
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
+// Ensure this path is used exactly:
     const { title, location, rent, flatType, furnishing, amenities } = formData;
     
     const prompt = `Write a compelling and friendly property listing description for a flat. 
