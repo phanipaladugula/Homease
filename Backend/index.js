@@ -9,12 +9,28 @@ require('dotenv').config();
 // Initialize the Express app
 const app = express();
 
-// --- Middleware ---
-const frontendURL = "https://homease-omega.vercel.app"; 
+// // --- Middleware ---
+// const frontendURL = "https://homease-omega.vercel.app"; 
+
+// app.use(cors({
+//   origin: frontendURL
+// }));
+const allowedOrigins = [
+  'https://homease-omega.vercel.app', // Your deployed frontend
+  'http://localhost:8080'             // Your local development server
+];
 
 app.use(cors({
-  origin: frontendURL
+  origin: function (origin, callback) {
+    // Allow requests if their origin is in our list
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
 }));
+
 app.use(express.json({ limit: '10mb' }));
 
 // --- Database Connection ---

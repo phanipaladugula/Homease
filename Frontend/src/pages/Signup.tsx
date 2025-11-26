@@ -226,7 +226,7 @@ const Signup = () => {
     // --- Helper function for exponential backoff ---
     const fetchWithBackoff = async (retries = 4, delay = 1500) => {
         const payload = { contents: [{ role: "user", parts: [{ text: prompt }] }] };
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
         for (let i = 0; i < retries; i++) {
             try {
