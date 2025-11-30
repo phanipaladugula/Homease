@@ -4,3 +4,5 @@
 
 # Ignore all environment files
 .env
+.env.development
+.env.production
